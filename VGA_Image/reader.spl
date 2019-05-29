@@ -1,0 +1,13 @@
+[Inputs]
+clk
+reset
+mouse
+=row[9:0]=
+=col[9:0]=
+=datain[2:0]=
+[Outputs]
+R
+G
+B
+=addr[13:0]=
+[BiDir]

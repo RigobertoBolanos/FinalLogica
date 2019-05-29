@@ -1,0 +1,1018 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: VGA_Image_tets.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA_Image_tets.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA_Image_tets"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : VGA_Image_tets
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/mouse_controller.vhd" in Library work.
+Architecture behavioral of Entity mouse_controller is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/resolution_mouse_informer.vhd" in Library work.
+Architecture behavioral of Entity resolution_mouse_informer is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/ps2interface.vhd" in Library work.
+Architecture behavioral of Entity ps2interface is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/VGA_SYNC.VHD" in Library work.
+Architecture a of Entity vga_sync is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/Clk_div_25MHz.vhd" in Library work.
+Architecture behavioral of Entity clk_div_25mhz is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino3.vhd" in Library work.
+Architecture memorydino3_a of Entity memorydino3 is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/reader.vhd" in Library work.
+Entity <reader> compiled.
+Entity <reader> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd" in Library work.
+Architecture structural of Entity mouserefcomp is up to date.
+Compiling vhdl file "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" in Library work.
+Entity <vga_image_tets> compiled.
+Entity <vga_image_tets> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VGA_Image_tets> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA_SYNC> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <Clk_div_25MHz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reader> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MouseRefComp> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <mouse_controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <resolution_mouse_informer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ps2interface> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VGA_Image_tets> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 136: Instantiating black box module <memoryDino3>.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'MIDDLE' of component 'MouseRefComp'.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'NEW_EVENT' of component 'MouseRefComp'.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'RIGHT' of component 'MouseRefComp'.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'XPOS' of component 'MouseRefComp'.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'YPOS' of component 'MouseRefComp'.
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf" line 153: Unconnected output port 'ZPOS' of component 'MouseRefComp'.
+Entity <VGA_Image_tets> analyzed. Unit <VGA_Image_tets> generated.
+
+Analyzing Entity <VGA_SYNC> in library <work> (Architecture <a>).
+Entity <VGA_SYNC> analyzed. Unit <VGA_SYNC> generated.
+
+Analyzing Entity <Clk_div_25MHz> in library <work> (Architecture <behavioral>).
+Entity <Clk_div_25MHz> analyzed. Unit <Clk_div_25MHz> generated.
+
+Analyzing Entity <reader> in library <work> (Architecture <behavioral>).
+Entity <reader> analyzed. Unit <reader> generated.
+
+Analyzing Entity <MouseRefComp> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd" line 141: Unconnected output port 'busy' of component 'ps2interface'.
+    Set property "rom_extract = yes" for unit <ps2interface>.
+    Set property "rom_style = distributed" for unit <ps2interface>.
+Entity <MouseRefComp> analyzed. Unit <MouseRefComp> generated.
+
+Analyzing Entity <mouse_controller> in library <work> (Architecture <behavioral>).
+Entity <mouse_controller> analyzed. Unit <mouse_controller> generated.
+
+Analyzing Entity <resolution_mouse_informer> in library <work> (Architecture <behavioral>).
+Entity <resolution_mouse_informer> analyzed. Unit <resolution_mouse_informer> generated.
+
+Analyzing Entity <ps2interface> in library <work> (Architecture <behavioral>).
+Entity <ps2interface> analyzed. Unit <ps2interface> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <VGA_SYNC>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/VGA_SYNC.VHD".
+    Found 1-bit register for signal <vert_sync_out>.
+    Found 1-bit register for signal <blue_out>.
+    Found 10-bit register for signal <pixel_row>.
+    Found 1-bit register for signal <red_out>.
+    Found 10-bit register for signal <pixel_column>.
+    Found 1-bit register for signal <horiz_sync_out>.
+    Found 1-bit register for signal <green_out>.
+    Found 10-bit up counter for signal <h_count>.
+    Found 1-bit register for signal <horiz_sync>.
+    Found 11-bit comparator greatequal for signal <horiz_sync$cmp_ge0000> created at line 40.
+    Found 11-bit comparator lessequal for signal <horiz_sync$cmp_le0000> created at line 40.
+    Found 11-bit comparator lessequal for signal <pixel_column$cmp_le0000> created at line 65.
+    Found 11-bit comparator lessequal for signal <pixel_row$cmp_le0000> created at line 72.
+    Found 10-bit up counter for signal <v_count>.
+    Found 11-bit comparator greatequal for signal <v_count$cmp_ge0000> created at line 51.
+    Found 11-bit comparator greatequal for signal <v_count$cmp_ge0001> created at line 51.
+    Found 1-bit register for signal <vert_sync>.
+    Found 11-bit comparator greatequal for signal <vert_sync$cmp_ge0000> created at line 58.
+    Found 11-bit comparator lessequal for signal <vert_sync$cmp_le0000> created at line 58.
+    Found 1-bit register for signal <video_on_h>.
+    Found 1-bit register for signal <video_on_v>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <VGA_SYNC> synthesized.
+
+
+Synthesizing Unit <Clk_div_25MHz>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/Clk_div_25MHz.vhd".
+    Found 1-bit register for signal <clk_25>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Clk_div_25MHz> synthesized.
+
+
+Synthesizing Unit <reader>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/reader.vhd".
+WARNING:Xst:646 - Signal <ybottom<31:11>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <transicion>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Clock enable       | transicion$and0000        (positive)           |
+    | Power Up State     | 00000000000000000000000000000000               |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Found 14-bit register for signal <addr_normal>.
+    Found 14-bit adder for signal <addr_normal$addsub0000> created at line 118.
+    Found 1-bit register for signal <en_img>.
+    Found 11-bit comparator greatequal for signal <en_img$cmp_ge0000> created at line 97.
+    Found 11-bit comparator lessequal for signal <en_img$cmp_le0000> created at line 97.
+    Found 11-bit comparator lessequal for signal <en_img$cmp_le0001> created at line 98.
+    Found 1-bit register for signal <jump>.
+    Found 32-bit register for signal <t_espera>.
+    Found 32-bit register for signal <t_salto>.
+    Found 32-bit comparator greatequal for signal <t_salto$cmp_ge0000> created at line 158.
+    Found 32-bit comparator lessequal for signal <t_salto$cmp_le0000> created at line 140.
+    Found 32-bit adder for signal <transicion$add0000> created at line 103.
+    Found 11-bit comparator greater for signal <transicion$cmp_gt0000> created at line 98.
+    Found 11-bit comparator greater for signal <transicion$cmp_gt0001> created at line 97.
+    Found 11-bit comparator less for signal <transicion$cmp_lt0000> created at line 97.
+    Found 32-bit register for signal <ybottom>.
+    Found 32-bit adder carry in for signal <ybottom$mux0000>.
+    Found 32-bit up counter for signal <ytop>.
+    Found 32-bit adder for signal <ytop$add0000> created at line 141.
+    Found 32-bit comparator greater for signal <ytop$cmp_gt0000> created at line 140.
+    Found 32-bit 4-to-1 multiplexer for signal <ytop$mux0000>.
+    Found 32-bit subtractor for signal <ytop$sub0000> created at line 144.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  83 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <reader> synthesized.
+
+
+Synthesizing Unit <mouse_controller>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/mouse_controller.vhd".
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 34                                             |
+    | Transitions        | 91                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 20                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset                                          |
+    | Power Up State     | reset                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <tx_data>.
+    Found 1-bit register for signal <new_event>.
+    Found 4-bit register for signal <zpos>.
+    Found 1-bit register for signal <right>.
+    Found 1-bit register for signal <middle>.
+    Found 1-bit register for signal <left>.
+    Found 10-bit register for signal <ypos>.
+    Found 10-bit register for signal <xpos>.
+    Found 1-bit register for signal <write>.
+    Found 1-bit register for signal <haswheel>.
+    Found 1-bit register for signal <left_down>.
+    Found 1-bit register for signal <middle_down>.
+    Found 1-bit register for signal <right_down>.
+    Found 8-bit register for signal <x_inc>.
+    Found 11-bit adder for signal <x_inter$add0001> created at line 365.
+    Found 10-bit register for signal <x_max>.
+    Found 1-bit register for signal <x_new>.
+    Found 1-bit register for signal <x_overflow>.
+    Found 11-bit register for signal <x_pos>.
+    Found 11-bit adder for signal <x_pos$addsub0000> created at line 389.
+    Found 11-bit comparator greater for signal <x_pos$cmp_gt0000> created at line 393.
+    Found 1-bit register for signal <x_sign>.
+    Found 8-bit register for signal <y_inc>.
+    Found 8-bit adder for signal <y_inc$addsub0000> created at line 965.
+    Found 11-bit adder for signal <y_inter$add0001> created at line 429.
+    Found 10-bit register for signal <y_max>.
+    Found 1-bit register for signal <y_new>.
+    Found 1-bit register for signal <y_overflow>.
+    Found 11-bit register for signal <y_pos>.
+    Found 11-bit adder for signal <y_pos$addsub0000> created at line 453.
+    Found 11-bit comparator greater for signal <y_pos$cmp_gt0000> created at line 457.
+    Found 1-bit register for signal <y_sign>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 105 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <mouse_controller> synthesized.
+
+
+Synthesizing Unit <resolution_mouse_informer>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/resolution_mouse_informer.vhd".
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | sreset                                         |
+    | Power Up State     | sidle                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <resolution_mouse_informer> synthesized.
+
+
+Synthesizing Unit <ps2interface>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/ps2interface.vhd".
+    Found 256x1-bit ROM for signal <tx_parity$rom0000> created at line 411.
+    Found 256x1-bit ROM for signal <rx_parity$rom0000> created at line 408.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 17                                             |
+    | Transitions        | 39                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 19                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit tristate buffer for signal <ps2_clk>.
+    Found 1-bit register for signal <read>.
+    Found 8-bit register for signal <rx_data>.
+    Found 1-bit tristate buffer for signal <ps2_data>.
+    Found 1-bit register for signal <err>.
+    Found 4-bit up counter for signal <bit_count>.
+    Found 4-bit up counter for signal <clk_count>.
+    Found 1-bit register for signal <clk_inter>.
+    Found 1-bit xor2 for signal <clk_inter$xor0000> created at line 363.
+    Found 4-bit up counter for signal <data_count>.
+    Found 1-bit register for signal <data_inter>.
+    Found 1-bit xor2 for signal <data_inter$xor0000> created at line 387.
+    Found 14-bit up counter for signal <delay_100us_count>.
+    Found 1-bit register for signal <delay_100us_done>.
+    Found 11-bit up counter for signal <delay_20us_count>.
+    Found 1-bit register for signal <delay_20us_done>.
+    Found 6-bit up counter for signal <delay_63clk_count>.
+    Found 1-bit register for signal <delay_63clk_done>.
+    Found 11-bit register for signal <frame>.
+    Found 1-bit register for signal <load_rx_data>.
+    Found 1-bit xor2 for signal <load_rx_data$xor0000> created at line 488.
+    Found 1-bit register for signal <load_tx_data>.
+    Found 1-bit register for signal <ps2_clk_clean>.
+    Found 1-bit register for signal <ps2_clk_h>.
+    Found 1-bit register for signal <ps2_clk_s>.
+    Found 1-bit register for signal <ps2_data_clean>.
+    Found 1-bit register for signal <ps2_data_h>.
+    Found 1-bit register for signal <ps2_data_s>.
+    Found 1-bit register for signal <rx_parity>.
+    Found 1-bit register for signal <tx_parity>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 ROM(s).
+	inferred   6 Counter(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   2 Tristate(s).
+Unit <ps2interface> synthesized.
+
+
+Synthesizing Unit <MouseRefComp>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd".
+Unit <MouseRefComp> synthesized.
+
+
+Synthesizing Unit <VGA_Image_tets>.
+    Related source file is "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf".
+Unit <VGA_Image_tets> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 256x1-bit ROM                                         : 2
+# Adders/Subtractors                                   : 10
+ 11-bit adder                                          : 4
+ 14-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 32-bit adder carry in                                 : 1
+ 32-bit subtractor                                     : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 9
+ 10-bit up counter                                     : 2
+ 11-bit up counter                                     : 1
+ 14-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+ 6-bit up counter                                      : 1
+# Registers                                            : 75
+ 1-bit register                                        : 58
+ 10-bit register                                       : 6
+ 11-bit register                                       : 2
+ 14-bit register                                       : 1
+ 32-bit register                                       : 3
+ 4-bit register                                        : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 19
+ 11-bit comparator greatequal                          : 5
+ 11-bit comparator greater                             : 4
+ 11-bit comparator less                                : 1
+ 11-bit comparator lessequal                           : 6
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <XLXI_18/Pss2Inst/state/FSM> on signal <state[1:17]> with one-hot encoding.
+-------------------------------------------------
+ State                      | Encoding
+-------------------------------------------------
+ idle                       | 00000000000000001
+ rx_clk_h                   | 00000000000100000
+ rx_clk_l                   | 00000000001000000
+ rx_down_edge               | 00000000000000010
+ rx_error_parity            | 00000000000001000
+ rx_data_ready              | 00000000000010000
+ tx_force_clk_l             | 00000000000000100
+ tx_bring_data_down         | 00000000010000000
+ tx_release_clk             | 00000000100000000
+ tx_first_wait_down_edge    | 00000001000000000
+ tx_clk_l                   | 00000010000000000
+ tx_wait_up_edge            | 00000100000000000
+ tx_clk_h                   | 00010000000000000
+ tx_wait_up_edge_before_ack | 00001000000000000
+ tx_wait_ack                | 00100000000000000
+ tx_received_ack            | 01000000000000000
+ tx_error_no_ack            | 10000000000000000
+-------------------------------------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <XLXI_18/ResMouseInfInst/state/FSM> on signal <state[1:6]> with one-hot encoding.
+----------------------
+ State    | Encoding
+----------------------
+ sreset   | 000010
+ sidle    | 000001
+ ssetx    | 000100
+ ssety    | 001000
+ ssetmaxx | 010000
+ ssetmaxy | 100000
+----------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_18/MouseCtrlInst/state/FSM> on signal <state[1:34]> with one-hot encoding.
+---------------------------------------------------------------------------
+ State                               | Encoding
+---------------------------------------------------------------------------
+ reset                               | 0000000000000000000000000000000001
+ reset_wait_ack                      | 0000000000000000000000000000000010
+ reset_wait_bat_completion           | 0000000000000000000000000000000100
+ reset_wait_id                       | 0000000000000000000000000000001000
+ reset_set_sample_rate_200           | 0000000000000000000000000000010000
+ reset_set_sample_rate_200_wait_ack  | 0000000000000000000000000000100000
+ reset_send_sample_rate_200          | 0000000000000000000000000001000000
+ reset_send_sample_rate_200_wait_ack | 0000000000000000000000000010000000
+ reset_set_sample_rate_100           | 0000000000000000000000000100000000
+ reset_set_sample_rate_100_wait_ack  | 0000000000000000000000001000000000
+ reset_send_sample_rate_100          | 0000000000000000000000010000000000
+ reset_send_sample_rate_100_wait_ack | 0000000000000000000000100000000000
+ reset_set_sample_rate_80            | 0000000000000000000001000000000000
+ reset_set_sample_rate_80_wait_ack   | 0000000000000000000010000000000000
+ reset_send_sample_rate_80           | 0000000000000000000100000000000000
+ reset_send_sample_rate_80_wait_ack  | 0000000000000000001000000000000000
+ reset_read_id                       | 0000000000000000010000000000000000
+ reset_read_id_wait_ack              | 0000000000000000100000000000000000
+ reset_read_id_wait_id               | 0000000000000001000000000000000000
+ reset_set_resolution                | 0000000000000010000000000000000000
+ reset_set_resolution_wait_ack       | 0000000000000100000000000000000000
+ reset_send_resolution               | 0000000000001000000000000000000000
+ reset_send_resolution_wait_ack      | 0000000000010000000000000000000000
+ reset_set_sample_rate_40            | 0000000000100000000000000000000000
+ reset_set_sample_rate_40_wait_ack   | 0000000001000000000000000000000000
+ reset_send_sample_rate_40           | 0000000010000000000000000000000000
+ reset_send_sample_rate_40_wait_ack  | 0000000100000000000000000000000000
+ reset_enable_reporting              | 0000001000000000000000000000000000
+ reset_enable_reporting_wait_ack     | 0000010000000000000000000000000000
+ read_byte_1                         | 0000100000000000000000000000000000
+ read_byte_2                         | 0001000000000000000000000000000000
+ read_byte_3                         | 0010000000000000000000000000000000
+ read_byte_4                         | 0100000000000000000000000000000000
+ mark_new_event                      | 1000000000000000000000000000000000
+---------------------------------------------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_16/transicion/FSM> on signal <transicion[1:1]> with sequential encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000000 | 0
+ 00000000000000000000000000000001 | 1
+----------------------------------------------
+Reading core <ipcore_dir/memoryDino3.ngc>.
+Loading core <memoryDino3> for timing and area information for instance <XLXI_15>.
+WARNING:Xst:1290 - Hierarchical block <ResMouseInfInst> is unconnected in block <XLXI_18>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <ps2interface>.
+INFO:Xst:3029 - HDL ADVISOR - LUT implementation is currently selected for the ROM <Mrom_rx_parity_rom0000>. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+INFO:Xst:3029 - HDL ADVISOR - LUT implementation is currently selected for the ROM <Mrom_tx_parity_rom0000>. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+Unit <ps2interface> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# ROMs                                                 : 2
+ 256x1-bit ROM                                         : 2
+# Adders/Subtractors                                   : 10
+ 11-bit adder                                          : 4
+ 14-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 32-bit adder carry in                                 : 1
+ 32-bit subtractor                                     : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 9
+ 10-bit up counter                                     : 2
+ 11-bit up counter                                     : 1
+ 14-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+ 6-bit up counter                                      : 1
+# Registers                                            : 286
+ Flip-Flops                                            : 286
+# Comparators                                          : 19
+ 11-bit comparator greatequal                          : 5
+ 11-bit comparator greater                             : 4
+ 11-bit comparator less                                : 1
+ 11-bit comparator lessequal                           : 6
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <ybottom_31> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_30> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_29> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_28> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_27> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_26> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_25> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_24> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_23> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_22> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_21> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_20> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_19> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_18> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_17> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_16> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_15> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_14> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_13> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_12> of sequential type is unconnected in block <reader>.
+WARNING:Xst:2677 - Node <ybottom_11> of sequential type is unconnected in block <reader>.
+
+Optimizing unit <VGA_Image_tets> ...
+
+Optimizing unit <VGA_SYNC> ...
+
+Optimizing unit <mouse_controller> ...
+
+Optimizing unit <resolution_mouse_informer> ...
+
+Optimizing unit <reader> ...
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/middle> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/right> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/xpos_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/ypos_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/zpos_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/zpos_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/zpos_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/zpos_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_overflow> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_sign> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_new> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_overflow> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_max_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_new> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/right_down> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/new_event> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_max_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_10> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_pos_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_inc_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/y_sign> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_10> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_9> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_8> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_pos_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_7> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_6> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/x_inc_0> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/MouseCtrlInst/middle_down> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd1> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd2> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd3> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd5> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd4> of sequential type is unconnected in block <VGA_Image_tets>.
+WARNING:Xst:2677 - Node <XLXI_18/ResMouseInfInst/state_FSM_FFd6> of sequential type is unconnected in block <VGA_Image_tets>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA_Image_tets, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 319
+ Flip-Flops                                            : 319
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VGA_Image_tets.ngr
+Top Level Output File Name         : VGA_Image_tets
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 1052
+#      GND                         : 2
+#      INV                         : 57
+#      LUT1                        : 118
+#      LUT2                        : 63
+#      LUT3                        : 64
+#      LUT3_D                      : 2
+#      LUT4                        : 263
+#      LUT4_D                      : 2
+#      LUT4_L                      : 7
+#      MUXCY                       : 258
+#      MUXF5                       : 16
+#      VCC                         : 2
+#      XORCY                       : 198
+# FlipFlops/Latches                : 319
+#      FD                          : 7
+#      FDC                         : 51
+#      FDCE                        : 80
+#      FDE                         : 92
+#      FDP                         : 2
+#      FDPE                        : 11
+#      FDR                         : 21
+#      FDRE                        : 54
+#      FDSE                        : 1
+# RAMS                             : 3
+#      RAMB16_S1_S1                : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 1
+#      IOBUF                       : 2
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      320  out of   4656     6%  
+ Number of Slice Flip Flops:            319  out of   9312     3%  
+ Number of 4 input LUTs:                576  out of   9312     6%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+ Number of BRAMs:                         3  out of     20    15%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                       | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+XLXI_5/clk_251                     | BUFG                                                                                                                        | 321   |
+XLXI_15/N1                         | NONE(XLXI_15/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram)| 3     |
+CLK_50MHZ                          | BUFGP                                                                                                                       | 1     |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------+-------------------------------------+-------+
+Control Signal                               | Buffer(FF name)                     | Load  |
+---------------------------------------------+-------------------------------------+-------+
+XLXI_16/reset_inv(XLXI_16/reset_inv1_INV_0:O)| NONE(XLXI_16/addr_normal_0)         | 91    |
+XLXN_81(XLXI_20:O)                           | NONE(XLXI_18/MouseCtrlInst/haswheel)| 53    |
+---------------------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.331ns (Maximum Frequency: 81.094MHz)
+   Minimum input arrival time before clock: 6.175ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_5/clk_251'
+  Clock period: 12.331ns (frequency: 81.094MHz)
+  Total number of paths / destination ports: 354686 / 646
+-------------------------------------------------------------------------
+Delay:               12.331ns (Levels of Logic = 44)
+  Source:            XLXI_16/t_salto_1 (FF)
+  Destination:       XLXI_16/ytop_31 (FF)
+  Source Clock:      XLXI_5/clk_251 rising
+  Destination Clock: XLXI_5/clk_251 rising
+
+  Data Path: XLXI_16/t_salto_1 to XLXI_16/ytop_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.591   0.595  XLXI_16/t_salto_1 (XLXI_16/t_salto_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_16/Madd_ytop_add0000_cy<1>_rt (XLXI_16/Madd_ytop_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_16/Madd_ytop_add0000_cy<1> (XLXI_16/Madd_ytop_add0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<2> (XLXI_16/Madd_ytop_add0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<3> (XLXI_16/Madd_ytop_add0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<4> (XLXI_16/Madd_ytop_add0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<5> (XLXI_16/Madd_ytop_add0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<6> (XLXI_16/Madd_ytop_add0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<7> (XLXI_16/Madd_ytop_add0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<8> (XLXI_16/Madd_ytop_add0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<9> (XLXI_16/Madd_ytop_add0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<10> (XLXI_16/Madd_ytop_add0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<11> (XLXI_16/Madd_ytop_add0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<12> (XLXI_16/Madd_ytop_add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<13> (XLXI_16/Madd_ytop_add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<14> (XLXI_16/Madd_ytop_add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<15> (XLXI_16/Madd_ytop_add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<16> (XLXI_16/Madd_ytop_add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<17> (XLXI_16/Madd_ytop_add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<18> (XLXI_16/Madd_ytop_add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<19> (XLXI_16/Madd_ytop_add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<20> (XLXI_16/Madd_ytop_add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<21> (XLXI_16/Madd_ytop_add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<22> (XLXI_16/Madd_ytop_add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<23> (XLXI_16/Madd_ytop_add0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<24> (XLXI_16/Madd_ytop_add0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<25> (XLXI_16/Madd_ytop_add0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<26> (XLXI_16/Madd_ytop_add0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<27> (XLXI_16/Madd_ytop_add0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<28> (XLXI_16/Madd_ytop_add0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<29> (XLXI_16/Madd_ytop_add0000_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_16/Madd_ytop_add0000_cy<30> (XLXI_16/Madd_ytop_add0000_cy<30>)
+     XORCY:CI->O           2   0.804   0.451  XLXI_16/Madd_ytop_add0000_xor<31> (XLXI_16/ytop_add0000<31>)
+     LUT4:I3->O            1   0.704   0.000  XLXI_16/ytop_cmp_eq0000_wg_lut<7> (XLXI_16/ytop_cmp_eq0000_wg_lut<7>)
+     MUXCY:S->O           42   0.864   1.344  XLXI_16/ytop_cmp_eq0000_wg_cy<7> (XLXI_16/ytop_cmp_eq0000)
+     LUT2:I1->O            8   0.704   0.761  XLXI_16/Mmux_ytop_mux00001011 (XLXI_16/N01)
+     LUT4:I3->O            1   0.704   0.000  XLXI_16/Mcount_ytop_lut<24> (XLXI_16/Mcount_ytop_lut<24>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_16/Mcount_ytop_cy<24> (XLXI_16/Mcount_ytop_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Mcount_ytop_cy<25> (XLXI_16/Mcount_ytop_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Mcount_ytop_cy<26> (XLXI_16/Mcount_ytop_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Mcount_ytop_cy<27> (XLXI_16/Mcount_ytop_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Mcount_ytop_cy<28> (XLXI_16/Mcount_ytop_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_16/Mcount_ytop_cy<29> (XLXI_16/Mcount_ytop_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_16/Mcount_ytop_cy<30> (XLXI_16/Mcount_ytop_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_16/Mcount_ytop_xor<31> (XLXI_16/Mcount_ytop31)
+     FDCE:D                    0.308          XLXI_16/ytop_31
+    ----------------------------------------
+    Total                     12.331ns (9.180ns logic, 3.151ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_50MHZ'
+  Clock period: 1.949ns (frequency: 513.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.949ns (Levels of Logic = 0)
+  Source:            XLXI_5/clk_25 (FF)
+  Destination:       XLXI_5/clk_25 (FF)
+  Source Clock:      CLK_50MHZ rising
+  Destination Clock: CLK_50MHZ rising
+
+  Data Path: XLXI_5/clk_25 to XLXI_5/clk_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.447  XLXI_5/clk_25 (XLXI_5/clk_251)
+     FDR:R                     0.911          XLXI_5/clk_25
+    ----------------------------------------
+    Total                      1.949ns (1.502ns logic, 0.447ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_5/clk_251'
+  Total number of paths / destination ports: 65 / 65
+-------------------------------------------------------------------------
+Offset:              6.175ns (Levels of Logic = 3)
+  Source:            SW0 (PAD)
+  Destination:       XLXI_18/Pss2Inst/read (FF)
+  Destination Clock: XLXI_5/clk_251 rising
+
+  Data Path: SW0 to XLXI_18/Pss2Inst/read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.218   0.708  SW0_IBUF (SW0_IBUF)
+     INV:I->O             54   0.704   1.269  XLXI_20 (XLXN_81)
+     INV:I->O             15   0.704   1.017  XLXI_18/Pss2Inst/rst_inv1_INV_0 (XLXI_18/MouseCtrlInst/rst_inv)
+     FDE:CE                    0.555          XLXI_18/MouseCtrlInst/tx_data_0
+    ----------------------------------------
+    Total                      6.175ns (3.181ns logic, 2.994ns route)
+                                       (51.5% logic, 48.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_5/clk_251'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            XLXI_18/Pss2Inst/ps2_clk_h (FF)
+  Destination:       PS2_CLK (PAD)
+  Source Clock:      XLXI_5/clk_251 rising
+
+  Data Path: XLXI_18/Pss2Inst/ps2_clk_h to PS2_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.420  XLXI_18/Pss2Inst/ps2_clk_h (XLXI_18/Pss2Inst/ps2_clk_h)
+     IOBUF:T->IO               3.272          PS2_CLK_IOBUF (PS2_CLK)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.89 secs
+ 
+--> 
+
+Total memory usage is 4582892 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  130 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

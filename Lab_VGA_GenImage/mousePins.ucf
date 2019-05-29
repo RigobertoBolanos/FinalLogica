@@ -1,0 +1,22 @@
+NET "clk" LOC = "C9";
+NET "reset" LOC = "L13";
+NET "VGA_out_red<0>" LOC = "H14";
+NET "VGA_out_green<0>" LOC = "H15";
+NET "VGA_out_blue<0>" LOC = "G15";
+
+NET "hsync" LOC = "F15";
+NET "vsync" LOC = "F14";
+
+NET "ps2_clk" LOC = "G14";
+NET "ps2_data" LOC = "G13";
+
+NET "red<0>" LOC = "L14";
+NET "blue<0>" LOC = "H18";
+NET "green<0>" LOC = "N17";
+
+
+NET "middle" LOC = "E12" | IOSTANDARD = LVTTL ;
+NET "pwm_out" LOC = "E8" | IOSTANDARD = LVTTL;
+
+NET "txd" LOC ="M13" ;
+NET "rxd" LOC ="U8" | IOSTANDARD = LVTTL ;

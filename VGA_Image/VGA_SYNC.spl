@@ -1,0 +1,14 @@
+[Inputs]
+clock_25Mhz
+red
+green
+blue
+[Outputs]
+red_out
+green_out
+blue_out
+horiz_sync_out
+vert_sync_out
+=pixel_row[9:0]=
+=pixel_column[9:0]=
+[BiDir]

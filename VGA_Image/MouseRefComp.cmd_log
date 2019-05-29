@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../Lab_VGA_GenImage/mouse_controller.vhd -lib work ../Lab_VGA_GenImage/MouseRefComp.vhd -prj VGA_Image -o MouseRefComp.spl -module MouseRefComp -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MouseRefComp.spl C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/MouseRefComp.sym 

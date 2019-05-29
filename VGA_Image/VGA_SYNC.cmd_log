@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../Lab_VGA_GenImage/VGA_SYNC.VHD -prj VGA_Image -o VGA_SYNC.spl -module VGA_SYNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_SYNC.spl C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_SYNC.sym 

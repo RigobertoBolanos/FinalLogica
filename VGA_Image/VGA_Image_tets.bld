@@ -1,0 +1,42 @@
+Release 14.4 ngdbuild P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3
+e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd
+
+Reading NGO file
+"C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets
+.ngc" ...
+Loading design module "ipcore_dir/memoryDino3.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan
+3e.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4416300 kilobytes
+
+Writing NGD file "VGA_Image_tets.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "VGA_Image_tets.bld"...

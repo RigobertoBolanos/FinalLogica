@@ -1,0 +1,512 @@
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym VGA_Image_tets C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.sch C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.sym 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym VGA_Image_tets C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.sch C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.sym 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.xst" -ofn "C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_Image_tets.ngc VGA_Image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_Image_tets_map.ncd VGA_Image_tets.ngd VGA_Image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_Image_tets_map.ncd VGA_Image_tets.ncd VGA_Image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_Image_tets.twx VGA_Image_tets.ncd -o VGA_Image_tets.twr VGA_Image_tets.pcf 
+bitgen -intstyle ise -f VGA_Image_tets.ut VGA_Image_tets.ncd 

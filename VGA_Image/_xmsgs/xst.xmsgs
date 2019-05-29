@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">136</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">memoryDino3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MIDDLE</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">NEW_EVENT</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RIGHT</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">XPOS</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">YPOS</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ZPOS</arg>&apos; of component &apos;<arg fmt="%s" index="4">MouseRefComp</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd</arg>&quot; line <arg fmt="%d" index="2">141</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">ps2interface</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ybottom&lt;31:11&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ResMouseInfInst</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_18</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3029" delta="old" >HDL ADVISOR - LUT implementation is currently selected for the ROM &lt;<arg fmt="%s" index="1">Mrom_rx_parity_rom0000</arg>&gt;. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3029" delta="old" >HDL ADVISOR - LUT implementation is currently selected for the ROM &lt;<arg fmt="%s" index="1">Mrom_tx_parity_rom0000</arg>&gt;. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ybottom_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">reader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/middle</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/right</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/xpos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/ypos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/zpos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/zpos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/zpos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/zpos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_overflow</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_sign</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_new</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_overflow</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_max_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_new</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/right_down</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/new_event</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_max_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_pos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_inc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/y_sign</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_pos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/x_inc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/MouseCtrlInst/middle_down</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_18/ResMouseInfInst/state_FSM_FFd6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Image_tets</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

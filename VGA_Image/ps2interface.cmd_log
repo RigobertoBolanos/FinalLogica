@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../Lab_VGA_GenImage/ps2interface.vhd -prj VGA_Image -o ps2interface.spl -module ps2interface -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ps2interface.spl C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ps2interface.sym 

@@ -1,0 +1,119 @@
+V3 60
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/Clk_div_25MHz.vhd 2019/05/02.14:10:22 P.49d
+EN work/Clk_div_25MHz 1559094116 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/Clk_div_25MHz.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/Clk_div_25MHz/Behavioral 1559094117 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/Clk_div_25MHz.vhd \
+      EN work/Clk_div_25MHz 1559094116
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd 2019/05/28.17:11:30 P.49d
+EN work/MouseRefComp 1559094122 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/MouseRefComp/Structural 1559094123 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/MouseRefComp.vhd \
+      EN work/MouseRefComp 1559094122 CP mouse_controller \
+      CP resolution_mouse_informer CP ps2interface
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/mouse_controller.vhd 2019/05/28.17:11:30 P.49d
+EN work/mouse_controller 1559094108 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/mouse_controller.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/mouse_controller/Behavioral 1559094109 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/mouse_controller.vhd \
+      EN work/mouse_controller 1559094108
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/ps2interface.vhd 2019/05/28.17:11:28 P.49d
+EN work/ps2interface 1559094112 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/ps2interface.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/ps2interface/Behavioral 1559094113 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/ps2interface.vhd \
+      EN work/ps2interface 1559094112
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/reader.vhd 2019/05/28.20:40:20 P.49d
+EN work/reader 1559094120 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/reader.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/reader/Behavioral 1559094121 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/reader.vhd \
+      EN work/reader 1559094120
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/resolution_mouse_informer.vhd 2019/05/28.17:11:28 P.49d
+EN work/resolution_mouse_informer 1559094110 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/resolution_mouse_informer.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/resolution_mouse_informer/Behavioral 1559094111 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/resolution_mouse_informer.vhd \
+      EN work/resolution_mouse_informer 1559094110
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/VGA_SYNC.VHD 2019/05/02.14:10:22 P.49d
+EN work/VGA_SYNC 1559094114 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/VGA_SYNC.VHD \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/VGA_SYNC/a 1559094115 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/Lab_VGA_GenImage/VGA_SYNC.VHD \
+      EN work/VGA_SYNC 1559094114
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino.vhd 2019/05/28.11:12:10 P.49d
+EN work/memoryDino 1559074219 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/memoryDino/memoryDino_a 1559074220 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino.vhd \
+      EN work/memoryDino 1559074219
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino3.vhd 2019/05/28.15:51:02 P.49d
+EN work/memoryDino3 1559094118 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino3.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/memoryDino3/memoryDino3_a 1559094119 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/ipcore_dir/memoryDino3.vhd \
+      EN work/memoryDino3 1559094118
+FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf 2019/05/28.20:41:45 P.49d
+EN work/VGA_Image_tets 1559094124 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/VGA_Image_tets/BEHAVIORAL 1559094125 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/FinalLogica/VGA_Image/VGA_Image_tets.vhf \
+      EN work/VGA_Image_tets 1559094124 CP VGA_SYNC CP Clk_div_25MHz CP memoryDino3 \
+      CP reader CP MouseRefComp CP GND CP INV
+FL C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/Clk_div_25MHz.vhd 2019/05/02.14:10:20 P.49d
+FL C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/reader.vhd 2019/05/09.15:41:21 P.49d
+FL C:/Users/1107521942/Documents/Semana14_VGA/Lab_VGA_GenImage/VGA_SYNC.VHD 2019/05/02.14:10:20 P.49d
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D11.vhd 2019/05/09.15:13:29 P.49d
+EN work/D11 1557433157 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D11.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/D11/D11_a 1557433158 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D11.vhd \
+      EN work/D11 1557433157
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111.vhd 2019/05/09.15:28:05 P.49d
+EN work/D111 1557434502 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/D111/D111_a 1557434503 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111.vhd \
+      EN work/D111 1557434502
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111111.vhd 2019/05/09.15:49:30 P.49d
+EN work/D111111 1557435035 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111111.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/D111111/D111111_a 1557435036 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D111111.vhd \
+      EN work/D111111 1557435035
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D55.vhd 2019/05/02.15:10:19 P.49d
+EN work/D55 1556830713 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D55.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/D55/D55_a 1556830714 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/D55.vhd \
+      EN work/D55 1556830713
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/mymemory.vhd 2019/05/02.14:56:07 P.49d
+EN work/mymemory 1556827000 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/mymemory.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/mymemory/mymemory_a 1556827001 \
+      FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/ipcore_dir/mymemory.vhd \
+      EN work/mymemory 1556827000
+FL C:/Users/1107521942/Documents/Semana14_VGA/VGA_Image/VGA_Image_tets.vhf 2019/05/09.15:50:26 P.49d

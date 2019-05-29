@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\1107521942\Documents\Semana14_VGA\FinalLogica\VGA_Image\VGA_Image_tets.ncd
+OUTFILE=C:\Users\1107521942\Documents\Semana14_VGA\FinalLogica\VGA_Image\VGA_Image_tets.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\1107521942\Documents\Semana14_VGA\FinalLogica\VGA_Image
+LICENSE=WebPack
+USER_INFO=210703355_0_0_935
